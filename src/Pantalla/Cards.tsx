@@ -5,6 +5,7 @@ interface Props {
     product: Product;
     onPress: () => void;
 }
+// falto mi name
 
 export const ProductCard = ({ product, onPress }: Props) => (
     <Pressable onPress={onPress} className='flex-1 bg-white rounded-xl p-4 m-2 border border-gray-200'>
